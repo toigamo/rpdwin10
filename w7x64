@@ -1,5 +1,5 @@
 echo "Đang tải file xuống - Download windows files"
-wget -O w7x64.img https://filedn.com/lBanCx8t5owuet4a0bl9mu4/w7x64.img
+wget -O w7x64.img https://filedn.com/lPITbBldGL4FRrDs6FJRV3p/w7x64.img
 echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
