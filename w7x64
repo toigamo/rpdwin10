@@ -1,5 +1,5 @@
 echo "Đang tải file xuống - Download windows files"
-wget -O w7x64.img https://filedn.com/lPITbBldGL4FRrDs6FJRV3p/w7x64.img
+wget -O w7x64.img https://bit.ly/3tlfUbL
 echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
@@ -13,6 +13,8 @@ echo "Starting Windows"
 echo RDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "Ctrl+C để copy - Ctrl+C To Copy"
+echo Username: akuh
+echo Password: Akuh.Net
 echo "Chờ 1-2 phút để hoàn tất - Wait 1-2 minute to finish bot"
 echo "Vui lòng không tắt cửa sổ này - Dont Close This Tab"
 echo "Please support toigamo.blogspot.com thank you"
